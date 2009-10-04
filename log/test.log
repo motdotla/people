@@ -150,3 +150,42 @@ Processing PeopleController#index (for 127.0.0.1 at 2009-10-04 12:14:00) [GET]
 Rendering template within layouts/people
 Rendering people/index
 Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/people]
+  [4;36;1mPerson Load (0.2ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;35;1mPerson Load (0.1ms)[0m   [0mSELECT * FROM "people" [0m
+  [4;36;1mPerson Load (0.1ms)[0m   [0;1mSELECT * FROM "people" [0m
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2009-10-04 12:34:34) [GET]
+Rendering template within layouts/people
+Rendering people/new
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://www.example.com/people/new]
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2009-10-04 12:34:34) [GET]
+Rendering template within layouts/people
+Rendering people/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/people/new]
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2009-10-04 12:34:34) [GET]
+Rendering template within layouts/people
+Rendering people/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/people/new]
+REQUESTING PAGE: GET /people/new with {} and HTTP headers {}
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2009-10-04 12:34:34) [GET]
+Rendering template within layouts/people
+Rendering people/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/people/new]
+REQUESTING PAGE: GET /people with {} and HTTP headers {}
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2009-10-04 12:34:34) [GET]
+  [4;35;1mPerson Load (0.2ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/people
+Rendering people/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/people]
